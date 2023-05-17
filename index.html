@@ -1,0 +1,131 @@
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script src="module/clipboard.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+<link rel="stylesheet" type="text/css" href="./css/navbar.css"/>
+<link rel="stylesheet" type="text/css" href="./css/main.css"/>
+<link rel="stylesheet" type="text/css" href="main.css"/>
+<link rel="stylesheet" type="text/css" href="./css/index.css"/>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carolus Studios</title>
+    <link rel="stylesheet" href="./css/main.css" type="text/css" charset="utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  <body class="dark-theme">
+
+  </div>
+  <body>
+    <section>
+        <nav>
+            <header>
+                <div class="imgBx">
+                    <img src="./favicon.ico" alt="logo">
+                    <h3>Carolus<br><span></span></h3>
+                </div>
+                <div class="toggle">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <i class="fa-solid fa-chevron-left"></i>
+                </div>
+            </header>
+            <menu>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-house"></i>
+                            <span>Main page</span>
+                        </a>
+                    </li>
+                    <li>
+                      <a href="https://carolus-studios.github.io/carolus-rp">
+                          <i class="fa-solid fa-compass"></i>
+                          <span>Carolus RP</span>
+                      </a>
+                  </li>
+                  <li>
+                    <a href="https://carolus-studios.github.io/empire-wars">
+                        <i class="fa-solid fa-compass"></i>
+                        <span>Empire Wars</span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="https://carolus-studios.github.io/mainpage/html/links.html">
+                            <i class="fa-solid fa-compass"></i>
+                            <span>Social links</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://carolus-studios.github.io/mainpage/html/mystery.html">
+                            <i class="fa-solid fa-question"></i>
+                            <span>To be announced</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://carolus-studios.github.io/staff-page">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Meet the staff</span>
+                        </a>
+                    </li>
+                    <li>
+                      <a href="https://carolus-studios.github.io/mainpage/html/about.html">
+                          <i class="fa-solid fa-circle-info"></i>
+                          <span>About Carolus</span>
+                      </a>
+                  </li>
+                </ul>
+                </div>
+            </menu>
+        </nav>
+        <main>
+        </style>
+        <h1 style="font-size:5vw"> </h1>
+        <div></div>
+        <h2 class="animate__animated animate__zoomInDown" style="animation-duration:4.0s; color: white; font-size:3.7vw">
+          Carolus Studios official website
+        </h2> 
+        <h3 style="font-size:5vw"> </h3>
+        <h4 class="animate__animated animate__jackInTheBox" style="animation-delay:2.5s; animation-duration:1.6s; color: white; font-size:3.3vw">
+          Website in development
+        </h4>
+        <h5 class="animate__animated animate__zoomInDown" style="animation-duration:3.0s; color: white; font-size:3.3vw">
+          Maintained and coded by 88ggjjj (shatterstar9652)
+        </h5>    
+        </main>
+    </section>
+</body>
+
+  <script src="./app.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+  <script>        
+    const activeToggle = document.querySelector('.toggle');
+    const body = document.querySelector('body');
+    const nav = document.querySelector('nav');
+    const faMagnifyingGlass = document.querySelector('.fa-magnifying-glass');
+    const switchBx = document.querySelector('.switch');
+    const switchText = document.querySelector('.switchText');
+    activeToggle.addEventListener('click', () => {
+        nav.classList.toggle('active');
+    });
+    faMagnifyingGlass.addEventListener('click', () => {
+        nav.classList.remove('active');
+    });
+    switchBx.addEventListener("click", () => {
+        body.classList.toggle("dark");
+        if (body.classList.contains("dark")) {
+            switchText.innerText = "light mode";
+            switchText.style.transition = '.5s ease';
+        } else {
+            switchText.innerText = "dark mode";
+            switchText.style.transition = '.5s ease'
+        }
+    });</script>
+      <div>
+</div>
+  </body>
+</html>
